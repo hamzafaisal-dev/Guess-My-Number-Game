@@ -52,7 +52,6 @@ resetButton.addEventListener("click", function(){
     currentScoreCount = 20;
     displayMessage.innerHTML = "Start guessing...";
     currentScore.innerHTML = 20;
-    highScore.innerHTML = 0;
     document.querySelector(".guess").value = "";
     document.querySelector(".number").textContent = "?";
     document.querySelector("body").style.backgroundColor = "#222";
